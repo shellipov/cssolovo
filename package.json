@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "name": "cssolovo",
+  "version": "1.0.0",
+  "description": "ololo",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellipov/cssolovo.git"
+  },
+  "author": "shell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shellipov/cssolovo/issues"
+  },
+  "homepage": "https://github.com/shellipov/cssolovo#readme"
+}
